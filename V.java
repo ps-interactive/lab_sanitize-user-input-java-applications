@@ -12,7 +12,6 @@ public class JavaJDBC {
                     "jdbc:mysql://localhost:3306/users", "root", "NEW_PASSWORD"
             );
             Statement statement = connection.createStatement();
-
             Scanner myObj = new Scanner(System.in);
             System.out.println("Enter password");
             String password_attempt = myObj.nextLine();
