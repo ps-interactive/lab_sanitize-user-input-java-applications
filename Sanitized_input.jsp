@@ -38,7 +38,7 @@
         <h2>GET Form Processing</h2>
         <%-- Retrieving parameters from the request --%>
         <% String name = request.getParameter("name"); %>
-	      <% String name_santized = name.replaceAll("[^a-zA-Z0-9]", ""); %>
+	<% String name_santized = name.replaceAll("[^a-zA-Z0-9]", ""); %>
         <% String email = request.getParameter("email"); %>
 
         <h3>Hello, <%= name_santized %></h3>
